@@ -28,12 +28,9 @@ def connect(user, host, password):
 
 
 def main():
-    # host = '47.101.150.236'
-    # user = 'root'
-    # password = 'XZHh15731#'
     host = '10.10.10.130'
-    user = 'vchase'
-    password = 'vchase'
+    user = 'root'
+    password = 'root'
     child = connect(user, host, password)
     send_command(child, 'ls')
 
